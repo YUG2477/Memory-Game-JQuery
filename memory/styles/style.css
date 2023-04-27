@@ -1,0 +1,78 @@
+#game-board {
+	display: flex;
+	flex-wrap: wrap;
+	width: 664px;
+	margin: 0 auto;
+}
+
+body{
+	background-color: antiquewhite;
+}
+.card {
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	background-color: #dc6e6e;
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+	box-shadow: 6px 6px #888888;
+}
+
+.flipped{
+	background-color: rgb(27, 89, 223);
+}
+
+.matched{
+	background-color: green;
+
+}
+
+/* .notmatched{
+	background-color: yellow;
+} */
+
+.notactive{
+	background-color:#ddd ;
+
+}
+.card i{
+	display: none;
+	padding: 19px 12px;
+} 
+
+.display{
+	display: block;
+}
+
+.head {
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;             
+}
+
+.control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 55px;
+}
+
+button {
+    padding: 15px 15px;
+    font-size: 23px;
+    border-radius: 10px;
+    border: 2px solid #7e34c8;
+    cursor: pointer;
+}
+
+.message {
+    text-align: center;
+}
+
+.finalmsg{
+	display: none;
+}
